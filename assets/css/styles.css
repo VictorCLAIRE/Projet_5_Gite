@@ -111,6 +111,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  list-style-type: none;
 }
 
 ol ol,
@@ -229,7 +230,8 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 50;
+
 }
 
 button:focus {
@@ -551,6 +553,11 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
+}
+.logementAdmin{
+  height: auto;
+  border: solid, 2px, black;
+
 }
 
 @media (min-width: 576px) {
@@ -1964,19 +1971,7 @@ pre code {
 }
 
 .form-control {
-  display: block;
-  width: 100%;
-  height: calc(1.5em + 1rem);
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 0.125rem solid #ced4da;
-  border-radius: 0.5rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -4350,6 +4345,7 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
+  height: 75px ;
   padding: 1.25rem;
 }
 
@@ -10232,12 +10228,21 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 5;
+  padding-bottom: 5;
   background-color: #2c3e50;
   color: #fff;
 }
 
 .copyright {
   background-color: #1a252f;
+}
+.DivForm{
+  border: 2px solid black;
+  border-radius: 10%;
+  width: auto;
+}
+.imgModifFormulaire{
+  height:200px ;
+  width: 200px;
 }
